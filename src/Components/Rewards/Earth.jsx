@@ -3,19 +3,19 @@ const { Canvas } = require('@react-three/fiber');
 const { Suspense, useState, useEffect } = require('react');
 
 const Earth = ({ scale }) => {
-  const earth = useGLTF('/earth/scene.gltf');
+  const earth = useGLTF('/terra/scene.gltf');
   return <primitive object={earth.scene} scale={scale} />;
 };
 
-useGLTF.preload('/earth/scene.gltf');
+useGLTF.preload('/terra/scene.gltf');
 
 const EarthComponent = () => {
-  const [scale, setScale] = useState(0.025);
+  const [scale, setScale] = useState(2.7);
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 1024) return setScale(0.02);
-      setScale(0.025);
+      setScale(2.7);
     };
 
     window.addEventListener('resize', handleResize);

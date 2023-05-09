@@ -30,8 +30,8 @@ const Navbar = () => {
     return(
         <section className={styles.navbar}>
             <div>
-                <Link href='/'>
-                    <Image src='/logo-cs-tech-favicon.svg' alt='CS Tech' width={100} height={70} />
+                <Link href='/' title='CS Tech'>
+                    <Image src='/logo-cs-tech-favicon.png' alt='CS Tech' width={63} height={40} />
                 </Link>
             </div>
             <nav>
