@@ -31,7 +31,7 @@ const Navbar = () => {
         <section className={styles.navbar}>
             <div>
                 <Link href='/' title='CS Tech'>
-                    <Image src='/logo-cs-tech-favicon.png' alt='CS Tech' width={63} height={40} />
+                    <Image src='/logo-cs-tech-favicon.png' alt='CS Tech' width={50} height={50} />
                 </Link>
             </div>
             <nav>
