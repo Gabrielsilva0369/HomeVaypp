@@ -21,7 +21,7 @@ export const navLinks = [
 ];
 
 export const header = {
-  title: 'Seja Digital Seja CS TechBank',
+  title: 'Seja Digital Seja CS Tech Bank',
   subtitle:
     'Somos a união da tecnologia com a confiança que você procura em um banco. Nós oferecemos serviços bancários digitais seguros e inovadores, para ajudar você a se conectar com o futuro financeiro e aproveitar cada oportunidade.',
   caption: '__ confiado por milhões de usuários',
@@ -69,7 +69,7 @@ export const resources = {
 };
 
 export const rewards = {
-  title: 'CS TechRewards - O Programa de Pontos CS TechBank',
+  title: 'CS TechRewards - O Programa de Pontos CS Tech Bank',
   list: [
     {
       title: 'Acumule pontos e troque por vantagens',
@@ -79,7 +79,7 @@ export const rewards = {
     {
       title: 'Como funciona',
       subtitle:
-        'Você acumula pontos a cada transação realizada com seu cartão de crédito. Além disso, quanto mais você usar os serviços do CS TechBank, mais pontos acumula. É simples assim!',
+        'Você acumula pontos a cada transação realizada com seu cartão de crédito. Além disso, quanto mais você usar os serviços do CS Tech Bank, mais pontos acumula. É simples assim!',
     },
   ],
 };
@@ -92,28 +92,28 @@ export const testimonials = {
       name: 'Ana Silva',
       role: 'Advogada',
       comment:
-        'Adorei a praticidade do aplicativo do CS TechBank. Tudo o que eu preciso está ali na tela do meu celular, sem complicação.',
+        'Adorei a praticidade do aplicativo do CS Tech Bank. Tudo o que eu preciso está ali na tela do meu celular, sem complicação.',
     },
     {
       avatar: joao,
       name: 'João Santos',
       role: 'Empresário',
       comment:
-        'O programa de pontos do CS TechBank é incrível! Com os pontos que acumulo nas minhas transações, posso fazer compras em lojas parceiras. É uma ótima maneira de economizar!',
+        'O programa de pontos do CS Tech Bank é incrível! Com os pontos que acumulo nas minhas transações, posso fazer compras em lojas parceiras. É uma ótima maneira de economizar!',
     },
     {
       avatar: maria,
       name: 'Maria Ferreira',
       role: 'Estudante',
       comment:
-        'Estava procurando por um banco digital seguro e confiável e encontrei o CS TechBank. Amei a facilidade de abrir uma conta e agora faço todas as minhas transações pelo aplicativo.',
+        'Estava procurando por um banco digital seguro e confiável e encontrei o CS Tech Bank. Amei a facilidade de abrir uma conta e agora faço todas as minhas transações pelo aplicativo.',
     },
     {
       avatar: carlos,
       name: 'Carlos Gomes',
       role: 'Designer gráfico',
       comment:
-        'Eu estava cansado de ter que ir até o banco toda semana para resolver minhas pendências. Com o CS TechBank, agora consigo fazer tudo pelo celular, de forma prática e segura.',
+        'Eu estava cansado de ter que ir até o banco toda semana para resolver minhas pendências. Com o CS Tech Bank, agora consigo fazer tudo pelo celular, de forma prática e segura.',
     },
   ],
 };
@@ -132,7 +132,7 @@ export const footer = {
     '(00) 1234-5678',
     'Rua Fictícia, 1234, Bairro Fictício, Cidade Fictícia - Estado Fictício',
   ],
-  copy: 'Copyright © 2023 CS TechBank. Todos os direitos reservados.',
+  copy: 'Copyright © 2023 CS Tech Bank. Todos os direitos reservados.',
   social: [
     { component: instagram, url: '#' },
     { component: twitter, url: '#' },
