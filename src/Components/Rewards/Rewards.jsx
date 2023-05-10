@@ -26,7 +26,7 @@ const Rewards = () => {
     ));
 
     return(
-        <section className={styles.rewards}>
+        <section id='rewards' className={styles.rewards}>
             <div className={styles.content}>
                 <motion.h2 {...motionProps(-100, 0)} className='title'>{title}</motion.h2>
                 {renderList}
