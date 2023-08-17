@@ -24,7 +24,8 @@ html {
 body {
   font-size: 1.6rem;
   background-color: $black;
-  color: $white;
+  
+  color: $bluePrimary;
   position: relative;
 }
 
@@ -45,10 +46,35 @@ p,
 .p {
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 2.5rem;
+  line-height: 3rem;
+  background-image: linear-gradient(to right, #2852bd,#2852bd,  #9750dc, #9750dc);
+  
+  /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
 
   &.light {
-    opacity: 0.6;
+    opacity:1;
+  }
+}
+h1{
+  font-weight: 400;
+  font-size: 1.6rem;
+
+  background-image: linear-gradient(to right, #2852bd, #9750dc);
+  
+  /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
+
+  &.light {
+    opacity:1;
   }
 }
 
@@ -66,3 +92,32 @@ p,
     font-size: 4rem;
   }
 }
+
+
+.Login{
+  width: 90px;
+  height: 40px;
+  background:#FFC800;
+  text-align: center;
+  float: left;
+  border: 0px;
+  color: aliceblue;
+  border-radius: 7px;
+  
+  position: relative;
+  margin-top:-9px;
+
+  /* flex para alinhar conteúdo*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.LoginC{  background:#FFC800;  
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+  

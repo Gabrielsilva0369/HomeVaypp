@@ -28,7 +28,7 @@ const Footer = () => {
             <div className={styles.conteiner1}>
                 <div className={styles.column1}>
                     <Link href='/' title='CS Tech'>
-                        <Image src='/logo-cs-tech-favicon.png' alt='CS Tech' width={50} height={50} />
+                        <Image src='/vaypp-logo-white.png' alt='CS Tech' width={230} height={55} />
                     </Link>
                     <p className='light'>{description}</p>
                 </div>

@@ -6,9 +6,9 @@ import { Suspense } from 'react';
 const CreditCard = () => {
     const creditCard =useGLTF('/credit_card_white/scene.gltf');
         return (<primitive object={creditCard.scene} 
-        scale={1.5} 
+        scale={1.9} 
         position={[0, -1.5, 0]} 
-        rotation={[0, 2.8, 0]} 
+        rotation={[0, -2.8, 0]} 
         />
     );
 }

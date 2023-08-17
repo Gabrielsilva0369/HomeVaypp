@@ -20,12 +20,12 @@ const Header = () => {
     return(
         <header className={styles.header}>
             <div className={styles.conteiner}>
-                <motion.div {...motionProps(-100, 0)} className={styles.content}>
-                    <span>{caption}</span>
+                <motion.div {...motionProps(-200, 0)} className={styles.content}>
+                 
                     <h1>{title}</h1>
-                    <p>{subtitle}</p>
+                 
                 </motion.div>
-                <motion.div {...motionProps(-100, 0)}>
+                <motion.div {...motionProps(-200, 0)}>
                     <CreditCardComponent />
                 </motion.div>
             </div>
@@ -33,4 +33,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Header

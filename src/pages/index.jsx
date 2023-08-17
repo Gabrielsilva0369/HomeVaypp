@@ -6,12 +6,15 @@ import Resources from '@/Components/Resources/Resources'
 import Rewards from '@/Components/Rewards/Rewards'
 import Testimonials from '@/Components/Testimonials/Testimonials'
 import Head from 'next/head'
+import BackToTopButton from '@/Components/BackToTopButton/BackToTopButton';
+
+
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>CS Tech Bank</title>
+        <title>Vaypp</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
@@ -19,10 +22,11 @@ export default function Home() {
       <Navbar />
       <Header />
       <main >
-        <Experience />
+       <Experience />
         <Resources />
         <Rewards />
         <Testimonials />
+        <BackToTopButton />
       </main>
       <Footer />
     </>

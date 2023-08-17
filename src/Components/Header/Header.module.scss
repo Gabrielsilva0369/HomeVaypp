@@ -9,6 +9,7 @@
         grid-template-columns: repeat(2, 1fr);
         height: 60rem;
         align-items: center;
+    
 
         @include device(tablet){
             grid-template-columns:  1fr;
@@ -20,6 +21,7 @@
 
         & > div:last-of-type{
             height: 100%;
+            text-align: center;
         }
 
         .content{
@@ -27,13 +29,15 @@
             span {
                 font-size: 1.4rem;
                 text-transform: uppercase;
+                text-align: center;
             }
             h1{
                 @include gradient-color;
-                font-size: 6.4rem;
-                font-weight: 500;
-                margin: 1rem 0 2rem 0;
+                font-size: 6.0rem;
+                font-weight: 400;
+                margin: 1rem 0 1rem 0;
                 max-width: 50rem;
+                text-align: center;
 
                 @include device(tablet){
                     margin: 1rem auto 2rem auto;

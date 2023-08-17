@@ -11,14 +11,14 @@
     .list{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        gap: 3rem;
 
         @include device(tablet){
             grid-template-columns: 1fr;
         }
 
         .item{
-            background-color: $lightBlack;
+            background-color: $gameFic;
             padding: 3rem;
             border-radius: 2rem;
 
@@ -28,8 +28,34 @@
                 gap: 3rem;
                 margin-bottom: 2rem;
                 
-                img{
-                    border-radius: 50%;
+               
+                .testimonialImage-0 {
+                    filter: drop-shadow(5px 3px 10px #01ffff);
+                }
+                
+                /* Estilo personalizado para a segunda imagem */
+                .testimonialImage-1 {
+                    filter: drop-shadow(5px 3px 10px #ff7700);
+                }
+                .testimonialImage-2 {
+                    filter: drop-shadow(5px 3px 10px #ff0000);
+                }
+                .testimonialImage-3 {
+                    filter: drop-shadow(5px 3px 10px #cc9200);
+                }
+
+                .testimonialImage-4 {
+                    filter: drop-shadow(5px 3px 10px #0073c6);
+                }
+
+                .testimonialImage-5 {
+                    filter: drop-shadow(5px 3px 10px #cd0505);
+                }
+                .testimonialImage-6 {
+                    filter: drop-shadow(5px 3px 10px #9104aa);
+                }
+                .testimonialImage-7 {
+                    filter: drop-shadow(5px 3px 10px #ffac06);
                 }
 
                 h3{

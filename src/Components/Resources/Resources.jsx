@@ -25,7 +25,7 @@ const Resources = () => {
         </li>
     ));
     return(
-        <motion.section {...motionProps} id='resources' className={styles.resources}>
+        <motion.section {...motionProps} id='solutions' className={styles.resources}>
             <div className={styles.conteiner}>
                 <h2 className='title'>{title}</h2>
                 <p className='light'>{subtitle}</p>

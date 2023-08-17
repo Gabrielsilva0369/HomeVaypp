@@ -17,6 +17,8 @@
         a{
             font-size: 1.4rem;
             padding: 1rem;
+           
+        
         }
 
         @include device(tablet){
@@ -38,7 +40,7 @@
         background-color: $black;
         display: none;
         opacity: 0;
-        flex-direction: column;
+        flex-direction:column;
         justify-content: center;
         align-items: center;
         position: fixed;
@@ -67,9 +69,11 @@
         a{
             font-size: 1.6rem;
             padding: 3rem;
-            display: inline-block;
+            align-items: center;
             width: 100%;
             text-align: center;
+            display: flex;
+            justify-content: center;
         }
     }
 }
